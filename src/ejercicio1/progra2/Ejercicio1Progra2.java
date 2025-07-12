@@ -13,10 +13,10 @@ public class Ejercicio1Progra2 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        Persona p = new Estudiante("Luis", 31);
-        p.saludar();
-        p.mostrarEdad();
+    public static void main(String[] args) {     
+        Producto e = new Producto("134-122", "Pasta", 12.5);
+        e.mostrarInformacion();
+        
     }
     
 }
